@@ -1,0 +1,32 @@
+ {
+    "id": 2,
+    "title": "BISU Balilihan Cultural Festival",
+    "date": "2025-06-15",
+    "organizer": "Cultural Affairs Department",
+    "capacity": 5,
+    "attendees": 1
+  },
+  {
+    "id": 3,
+    "title": "BISU Balilihan Intramurals",
+    "date": "2025-07-05",
+    "organizer": "Sports Department",
+    "capacity": 4,
+    "attendees": 0
+  },
+  {
+    "id": 4,
+    "title": "BISU Balilihan Job Fair",
+    "date": "2025-08-10",
+    "organizer": "Career Services",
+    "capacity": 5,
+    "attendees": 0
+  },
+  {
+    "id": 5,
+    "title": "New Student Orientation",
+    "date": "2025-09-01",
+    "organizer": "Student Affairs",
+    "capacity": 10,
+    "attendees": 0
+  }

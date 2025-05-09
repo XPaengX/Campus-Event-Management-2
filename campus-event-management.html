@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BISU Campus Events</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>BISU Campus Events</h1>
+    </header>
+
+    <main>
+      <section class="ev  ents-section">
+        <h2>Upcoming Events</h2>
+        <ul id="eventList"></ul>
+      </section>
+
+      <div class="forms-container">
+        <section class="form-section">
+          <h3>Register for Event</h3>
+          <form id="registerForm">
+            <div class="form-group">
+              <label for="eventId">Event ID:</label>
+              <input type="number" id="eventId" name="eventId" required>
+            </div>
+            <div class="form-group">
+              <label for="name">Full Name:</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <button type="submit">Register</button>
+            <div id="message" class="message"></div>
+          </form>
+        </section>
+
+        <section class="form-section">
+          <h3>Cancel Registration</h3>
+          <form id="cancelForm">
+            <div class="form-group">
+              <label for="cancelEventId">Event ID:</label>
+              <input type="number" id="cancelEventId" name="cancelEventId" required>
+            </div>
+            <div class="form-group">
+              <label for="cancelEmail">Registered Email:</label>
+              <input type="email" id="cancelEmail" name="cancelEmail" required>
+            </div>
+            <button type="submit">Cancel Registration</button>
+            <div id="cancelMessage" class="message"></div>
+          </form>
+        </section>
+      </div>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

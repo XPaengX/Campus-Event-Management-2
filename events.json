@@ -1,0 +1,28 @@
+[
+  {
+    "id": 1,
+    "title": "BISU Systemwide Intramurals 2025",
+    "date": "2025-11-15",
+    "location": "BISU Main Campus, Tagbilaran",
+    "description": "Annual sports competition between all BISU campuses. Events include basketball, volleyball, chess, and track & field.",
+    "attendees": [
+      {
+        "name": "aaron",
+        "email": "aaron@gmail.com"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "BISU Innovation and Technology Fair 2025",
+    "description": "A showcase of student-led innovations in technology, engineering, and sustainable solutions. Includes exhibits, demos, tech talks, and startup pitches.",
+    "date": "2025-09-20",
+    "location": "BISU Balilihan Campus - Multipurpose Hall",
+    "attendees": [
+      {
+        "name": "rafael",
+        "email": "rafael@gmail.com"
+      }
+    ]
+  }
+]
